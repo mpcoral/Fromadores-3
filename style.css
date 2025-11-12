@@ -1,6 +1,12 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
 body{
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
     color: #0C2B4E;
+    padding: 5px;
 }
 
 header{
@@ -14,5 +20,25 @@ span{
     border: 1px solid black;
     border-radius: 5px;
     margin: 10px 20px;
+}
+
+div{
+    border: 10px solid green;
+    padding: 5px;
+    margin: 2%;
+
+}
+
+section{
+    display: flex;
+    justify-content: center;
+}
+
+img{
+    width: 200px;
+}
+
+main{
+    margin-top: 10px;
 }
 
